@@ -1,8 +1,8 @@
 import React from 'react'
-import { ListGroupItem } from 'react-bootstrap';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Form from 'react-bootstrap/Form';
 
-export default function Todo({ todo, toggleTodo }) {
+export default function Todo({ todo, toggleTodo}) {
   
   function handleTodoClick(){
     toggleTodo(todo.id)
@@ -10,9 +10,19 @@ export default function Todo({ todo, toggleTodo }) {
 
   return (
     <ListGroup.Item>
-      <input type="checkbox" checked={todo.complete} onChange={handleTodoClick}/>
-      {todo.name}
-      <span class="checkmark"></span>
+      <Form>
+      {['checkbox'].map((type) => (
+        <div key={`default-${type}`} className="mb-3">
+          <Form.Check 
+            type={type}
+            id={`default-${type}`}
+            label={` ${todo.name}`}
+            checked={todo.complete} 
+            onChange={handleTodoClick}
+          />
+        </div>
+      ))}
+    </Form>
     </ListGroup.Item>
   )
 }

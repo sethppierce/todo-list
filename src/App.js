@@ -1,10 +1,9 @@
-import React, { useState, useRef, useEffect, useId } from 'react';
+import React, { useState, useRef, useEffect} from 'react';
 import TodoList from './TodoList';
 import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import background from './img/saints-banner.jpeg';
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
