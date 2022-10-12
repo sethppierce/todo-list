@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "//sethppierce.github.io/todo-list/static/css/main.689e3fa6.css",
-    "main.js": "//sethppierce.github.io/todo-list/static/js/main.9cb875b6.js",
-    "static/media/saints-banner.jpeg": "//sethppierce.github.io/todo-list/static/media/saints-banner.e2dbc5d1f6da7e820864.jpeg",
-    "index.html": "//sethppierce.github.io/todo-list/index.html",
-    "main.689e3fa6.css.map": "//sethppierce.github.io/todo-list/static/css/main.689e3fa6.css.map",
-    "main.9cb875b6.js.map": "//sethppierce.github.io/todo-list/static/js/main.9cb875b6.js.map"
+    "main.css": "./static/css/main.ca5e4586.css",
+    "main.js": "./static/js/main.a97cf9f7.js",
+    "static/media/saints-banner.jpeg": "./static/media/saints-banner.e2dbc5d1f6da7e820864.jpeg",
+    "index.html": "./index.html",
+    "main.ca5e4586.css.map": "./static/css/main.ca5e4586.css.map",
+    "main.a97cf9f7.js.map": "./static/js/main.a97cf9f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.689e3fa6.css",
-    "static/js/main.9cb875b6.js"
+    "static/css/main.ca5e4586.css",
+    "static/js/main.a97cf9f7.js"
   ]
 }
